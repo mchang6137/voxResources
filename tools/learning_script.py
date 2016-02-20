@@ -43,8 +43,6 @@ for feature_file in feature_list:
             print count
             count += 1
 
-print feature_data[0]
-
 feature_data = np.array(feature_data)
 
 maxLearners = 100
