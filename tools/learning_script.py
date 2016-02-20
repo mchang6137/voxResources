@@ -13,8 +13,8 @@ import sklearn.cross_validation as cv
 import csv
 import numpy as np
 
-def evaluateLearner(name, learner, data, labels, trials):
-    scores = cv.cross_val_score(learner, data, labels, cv = trials)
+def evaluateLearner(name, learner, data, labels, splits):
+    scores = cv.cross_val_score(learner, data, labels, cv = splits)
     print "-- %s Cross Validation Score --" % name
     print "Mean score: %f" % scores.mean()
     print "Standard deviation: %f" % scores.std()
@@ -43,6 +43,10 @@ with open('labels.csv', 'rb') as f:
 
 rf = RandomForestClassifier(n_estimators = maxLearners, max_depth = maxDepth, warm_start = False)
 boost1 = AdaBoostClassifier(n_estimators = maxLearners)
+boost2 = AdaBoostClassifier(n_estimators = maxLearners, learning_rate = 0.25)
+boost3 = AdaBoostClassifier(n_estimators = maxLearners, learning_rate = 0.125)
 
-evaluateLearner("Random Forest", rf, exempler, labels, 5)
-evaluateLearner("Default AdaBoost", boost1, exempler, labels, 5)
+evaluateLearner("Random Forest", rf, exempler, labels, 10)
+evaluateLearner("Default AdaBoost", boost1, exempler, labels, 10)
+evaluateLearner("AdaBoost with Rate 0.25", boost2, exempler, labels, 10)
+evaluateLearner("AdaBoost with Rate 0.125", boost3, exempler, labels, 10)
