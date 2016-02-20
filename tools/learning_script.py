@@ -7,6 +7,7 @@ import scipy.stats as stats
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import zero_one_loss
+import sklearn.cross_validation as cv
 
 import csv
 import numpy as np
@@ -40,10 +41,7 @@ Y_TE = labels[TEidx]
 Y_TR = labels[[i for i in range(0,N) if i not in TEidx]]
 
 rf = RandomForestClassifier(n_estimators = maxLearners, max_depth = maxDepth, warm_start = False)
-rf.fit(X_TR,Y_TR)
-predictionsRF = rf.predict(X_TE)
-errorRF = zero_one_loss(predictionsRF, Y_TE)
-print errorRF
-
-
-
+scores = cv.cross_val_score(rf, exempler, labels, cv=5)
+print "Cross validation scores: " + str(scores)
+print "Mean: %f" % scores.mean()
+print "Standard deviation: %f" % scores.std()
