@@ -19,20 +19,37 @@ def evaluateLearner(name, learner, data, labels, splits):
     print "Mean score: %f" % scores.mean()
     print "Standard deviation: %f" % scores.std()
 
-exempler = []
+feature_list = ['FV_MFCC.csv', 'FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv']
+fisher_directory = './../fisher_vectors/'
+feature_data = []
+SONG_SET_SIZE = 1000
 
-#Parse CSV file, wher each row corresponds to a particular exempler
-with open('FV_MFCC.csv', 'rb') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        float_row = np.array([float(i) for i in row])
-        exempler.append(float_row)
+for x in range(0,SONG_SET_SIZE):
+    feature_data.append([])
 
-exempler = np.array(exempler)
+#Parse CSV file, where each row corresponds to a particular exempler
+#Concatenate all the features in the same list
+for feature_file in feature_list:
+    with open(fisher_directory + feature_file, 'rb') as f:
+        reader = csv.reader(f)
+        temp_feature_data = []
+        for row in reader:
+            float_row = [float(i) for i in row]
+            temp_feature_data.append(float_row)
+        
+        count = 0
+        for song_temp_feature in temp_feature_data:
+            feature_data[count] += song_temp_feature
+            print count
+            count += 1
+
+print feature_data[0]
+
+feature_data = np.array(feature_data)
 
 maxLearners = 100
 maxDepth = 5
-N = len(exempler)
+N = len(feature_data)
 labels = np.array([N,])
 
 #Parse the labels file
@@ -46,7 +63,7 @@ boost1 = AdaBoostClassifier(n_estimators = maxLearners)
 boost2 = AdaBoostClassifier(n_estimators = maxLearners, learning_rate = 0.25)
 boost3 = AdaBoostClassifier(n_estimators = maxLearners, learning_rate = 0.125)
 
-evaluateLearner("Random Forest", rf, exempler, labels, 10)
-evaluateLearner("Default AdaBoost", boost1, exempler, labels, 10)
-evaluateLearner("AdaBoost with Rate 0.25", boost2, exempler, labels, 10)
-evaluateLearner("AdaBoost with Rate 0.125", boost3, exempler, labels, 10)
+evaluateLearner("Random Forest", rf, feature_data, labels, 10)
+evaluateLearner("Default AdaBoost", boost1, feature_data, labels, 10)
+evaluateLearner("AdaBoost with Rate 0.25", boost2, feature_data, labels, 10)
+evaluateLearner("AdaBoost with Rate 0.125", boost3, feature_data, labels, 10)
