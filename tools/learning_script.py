@@ -5,11 +5,19 @@ import numpy as np
 
 import scipy.stats as stats
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import AdaBoostClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import zero_one_loss
+import sklearn.cross_validation as cv
 
 import csv
 import numpy as np
+
+def evaluateLearner(name, learner, data, labels, trials):
+    scores = cv.cross_val_score(learner, data, labels, cv = trials)
+    print "-- %s Cross Validation Score --" % name
+    print "Mean score: %f" % scores.mean()
+    print "Standard deviation: %f" % scores.std()
 
 feature_list = ['FV_MFCC.csv', 'FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv']
 fisher_directory = './../fisher_vectors/'
@@ -50,17 +58,8 @@ with open('labels.csv', 'rb') as f:
     for label in reader:
         labels = np.array([int(i) for i in label])
 
-TEidx = np.array(random.sample(range(0,N), N/10))
-X_TE = feature_data[TEidx, :]
-X_TR = feature_data[[i for i in range(0,N) if i not in TEidx],:]
-Y_TE = labels[TEidx]
-Y_TR = labels[[i for i in range(0,N) if i not in TEidx]]
-
 rf = RandomForestClassifier(n_estimators = maxLearners, max_depth = maxDepth, warm_start = False)
-rf.fit(X_TR,Y_TR)
-predictionsRF = rf.predict(X_TE)
-errorRF = zero_one_loss(predictionsRF, Y_TE)
-print errorRF
+boost1 = AdaBoostClassifier(n_estimators = maxLearners)
 
-
-
+evaluateLearner("Random Forest", rf, feature_data, labels, 5)
+evaluateLearner("Default AdaBoost", boost1, feature_data, labels, 5)
