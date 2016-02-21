@@ -7,6 +7,7 @@ import scipy.stats as stats
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.grid_search import GridSearchCV
 from sklearn.metrics import zero_one_loss
 import sklearn.cross_validation as cv
 
@@ -40,10 +41,7 @@ for feature_file in feature_list:
         count = 0
         for song_temp_feature in temp_feature_data:
             feature_data[count] += song_temp_feature
-            print count
             count += 1
-
-print feature_data[0]
 
 feature_data = np.array(feature_data)
 
@@ -53,17 +51,24 @@ N = len(feature_data)
 labels = np.array([N,])
 
 #Parse the labels file
-with open('labels.csv', 'rb') as f:
+with open(fisher_directory + 'labels.csv', 'rb') as f:
     reader = csv.reader(f)
     for label in reader:
         labels = np.array([int(i) for i in label])
 
 rf = RandomForestClassifier(n_estimators = maxLearners, max_depth = maxDepth, warm_start = False)
-boost1 = AdaBoostClassifier(n_estimators = maxLearners)
-boost2 = AdaBoostClassifier(n_estimators = maxLearners, learning_rate = 0.25)
-boost3 = AdaBoostClassifier(n_estimators = maxLearners, learning_rate = 0.125)
+
+# tune AdaBoost using grid search
+boost = AdaBoostClassifier()
+param_grid = [
+    {'n_estimators': [25, 50, 75, 100], 'learning_rate': [0.1, 0.125, 0.25, 0.5, 0.75, 1]}
+]
+search = GridSearchCV(estimator = boost, param_grid = param_grid)
+search.fit(feature_data, labels)
+
+finalBoost = search.best_estimator_
+boostParam = search.best_params_
 
 evaluateLearner("Random Forest", rf, feature_data, labels, 10)
-evaluateLearner("Default AdaBoost", boost1, feature_data, labels, 10)
-evaluateLearner("AdaBoost with Rate 0.25", boost2, feature_data, labels, 10)
-evaluateLearner("AdaBoost with Rate 0.125", boost3, feature_data, labels, 10)
+evaluateLearner(("Adaboost with %d Learners, %f Rate" % (boostParam['n_estimators'], boostParam['learning_rate'])),
+    finalBoost, feature_data, labels, 10)
