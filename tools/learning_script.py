@@ -92,11 +92,4 @@ svm_param_grid = [
     {'C': [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75], 'kernel': ['linear', 'rbf']}
 ]
 final_svm = tuneLearner("SVM", svm, svm_param_grid, feature_data, labels)
-
-svm_search = GridSearchCV(estimator = svm, param_grid = svm_param_grid)
-svm_search.fit(feature_data, labels)
-
-final_svm = svm_search.best_estimator_
-svm_params = svm_search.best_params_
-
 evaluateLearner("SVM", final_svm, feature_data, labels, 10)
