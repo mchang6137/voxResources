@@ -28,28 +28,6 @@ def evaluateLearner(name, learner, data, labels, splits):
     print "Elapsed time to calculate: " + str(end-start)
     return scores.mean()
 
-# does grid search with the given learner, data, and labels on the
-# specified param grid, prints best params, returns the best learner 
-# produced by the search
-def tuneLearner(name, learner, param_grid, data, labels, splits):
-    search = GridSearchCV(estimator = learner, param_grid = param_grid, cv = splits)
-    search.fit(data, labels)
-    print "-- %s Grid Search Parameters --" % name
-    print search.grid_scores_
-    for param in search.best_params_:
-        print "%s: %s" % (param, str(search.best_params_[param]))
-    print "--\n"
-    return search.best_estimator_
-
-def evaluateLearner(name, learner, data, labels):
-    accuracy = learner.score(data, labels)
-    predictions = learner.predict(data)
-    cm = confusion_matrix(labels, predictions)
-    print "-- %s Results --" % name
-    print "Mean accuracy: %f" % accuracy
-    print cm
-    print "--\n"
-
 fisher_directory = './../fisher_vectors/'
 SONG_SET_SIZE = 1000
 VALIDATION_SIZE = 20 * 10
@@ -178,50 +156,6 @@ for L in range(0, len(full_feature_list)+1):
         if mean_score > max_score:
             max_score = mean_score
             max_feature_set = feature_list
-            
-#evaluateLearner("Default AdaBoost", boost1, feature_data, labels, 10)
-#evaluateLearner("AdaBoost with Rate 0.25", boost2, feature_data, labels, 10)
-#evaluateLearner("AdaBoost with Rate 0.125", boost3, feature_data, labels, 10)
 
 print 'max score is ' + str(max_score)
 print 'max set is ' + str(max_feature_set)
-
-    for label_list in reader:
-        i = 0
-        val_labels_temp = []
-        data_labels_temp = []
-        for label in label_list:
-            if (i % 100) in validation_indices:
-                val_labels_temp.append(int(label))
-            else:
-                data_labels_temp.append(int(label))
-            i += 1
-        val_labels = np.array(val_labels_temp)
-        data_labels = np.array(data_labels_temp)
-
-# tune random forest using grid search and evaluate
-rf = RandomForestClassifier(warm_start = False)
-rf_param_grid = [
-    {'n_estimators': [10, 25, 50, 75, 100, 125, 150, 175], 'max_depth': [4, 5, 6, 7, 8, 9, 10]}
-]
-final_rf = tuneLearner("Random Forest", rf, rf_param_grid, feature_data, data_labels, 5)
-final_rf.fit(feature_data, data_labels)
-evaluateLearner("Random Forest", final_rf, validation_data, val_labels)
-
-# tune AdaBoost using grid search
-#boost = AdaBoostClassifier()
-#boost_param_grid = [
-    #{'n_estimators': [25, 50, 75, 100], 'learning_rate': [0.1, 0.125, 0.25, 0.5, 0.75, 1]}
-#]
-#final_boost = tuneLearner("Adaboost", boost, boost_param_grid, feature_data, labels)
-#evaluateLearner("Adaboost", final_Boost, feature_data, labels, 10)
-
-# tune SVM using grid search and evaluate
-svm = SVC()
-svm_param_grid = [
-    {'C': [0.125, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75], 'kernel': ['linear', 'rbf']}
-]
-final_svm = tuneLearner("SVM", svm, svm_param_grid, feature_data, data_labels, 5)
-final_svm.fit(feature_data, data_labels)
-evaluateLearner("SVM", final_svm, validation_data, val_labels)
-
