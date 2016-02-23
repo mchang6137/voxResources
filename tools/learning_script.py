@@ -23,6 +23,7 @@ def tuneLearner(name, learner, param_grid, data, labels, splits):
     search = GridSearchCV(estimator = learner, param_grid = param_grid, cv = splits)
     search.fit(data, labels)
     print "-- %s Grid Search Parameters --" % name
+    print search.grid_scores_
     for param in search.best_params_:
         print "%s: %s" % (param, str(search.best_params_[param]))
     print "--\n"
@@ -31,13 +32,14 @@ def tuneLearner(name, learner, param_grid, data, labels, splits):
 def evaluateLearner(name, learner, data, labels):
     accuracy = learner.score(data, labels)
     predictions = learner.predict(data)
-    cm = confusion_matrix(predictions, labels)
+    cm = confusion_matrix(labels, predictions)
     print "-- %s Results --" % name
     print "Mean accuracy: %f" % accuracy
     print cm
     print "--\n"
 
-feature_list = ['FV_MFCC.csv', 'FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv']
+#feature_list = ['FV_MFCC.csv']#, 'FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv']
+feature_list = ['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
 fisher_directory = './../fisher_vectors/'
 feature_data = []
 validation_data = []
@@ -106,7 +108,7 @@ rf = RandomForestClassifier(warm_start = False)
 rf_param_grid = [
     {'n_estimators': [10, 25, 50, 75, 100, 125, 150, 175], 'max_depth': [4, 5, 6, 7, 8, 9, 10]}
 ]
-final_rf = tuneLearner("Random Forest", rf, rf_param_grid, feature_data, data_labels, 3)
+final_rf = tuneLearner("Random Forest", rf, rf_param_grid, feature_data, data_labels, 5)
 final_rf.fit(feature_data, data_labels)
 evaluateLearner("Random Forest", final_rf, validation_data, val_labels)
 
@@ -123,6 +125,6 @@ svm = SVC()
 svm_param_grid = [
     {'C': [0.125, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75], 'kernel': ['linear', 'rbf']}
 ]
-final_svm = tuneLearner("SVM", svm, svm_param_grid, feature_data, data_labels, 3)
+final_svm = tuneLearner("SVM", svm, svm_param_grid, feature_data, data_labels, 5)
 final_svm.fit(feature_data, data_labels)
 evaluateLearner("SVM", final_svm, validation_data, val_labels)
