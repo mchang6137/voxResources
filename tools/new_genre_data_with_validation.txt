@@ -1,0 +1,1280 @@
+Our training set does not include the following: 
+[81, 1, 46, 71, 58, 63, 30, 44, 96, 77, 55, 98, 26, 49, 47, 85, 91, 53, 76, 39]
+800
+['FV_chroma.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.410027
+Standard deviation: 0.046177
+Elapsed time to calculate: 0:00:06.149532
+['FV_brightness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.373712
+Standard deviation: 0.074550
+Elapsed time to calculate: 0:00:02.712973
+['FV_zerocross.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.389979
+Standard deviation: 0.041948
+Elapsed time to calculate: 0:00:02.734105
+['FV_eng.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.406197
+Standard deviation: 0.092266
+Elapsed time to calculate: 0:00:02.697243
+['FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.449999
+Standard deviation: 0.060917
+Elapsed time to calculate: 0:00:02.802061
+['FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.367571
+Standard deviation: 0.074153
+Elapsed time to calculate: 0:00:02.600819
+['FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.113753
+Standard deviation: 0.023357
+Elapsed time to calculate: 0:00:01.511416
+['FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.541328
+Standard deviation: 0.082343
+Elapsed time to calculate: 0:00:09.105333
+['FV_chroma.csv', 'FV_brightness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.476278
+Standard deviation: 0.058591
+Elapsed time to calculate: 0:00:06.362668
+['FV_chroma.csv', 'FV_zerocross.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.481325
+Standard deviation: 0.063919
+Elapsed time to calculate: 0:00:06.486248
+['FV_chroma.csv', 'FV_eng.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.503749
+Standard deviation: 0.035709
+Elapsed time to calculate: 0:00:06.578736
+['FV_chroma.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.473734
+Standard deviation: 0.046334
+Elapsed time to calculate: 0:00:06.413388
+['FV_chroma.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.455122
+Standard deviation: 0.056688
+Elapsed time to calculate: 0:00:06.283689
+['FV_chroma.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.415043
+Standard deviation: 0.034723
+Elapsed time to calculate: 0:00:05.970847
+['FV_chroma.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.548860
+Standard deviation: 0.067711
+Elapsed time to calculate: 0:00:10.738213
+['FV_brightness.csv', 'FV_zerocross.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.426277
+Standard deviation: 0.063446
+Elapsed time to calculate: 0:00:03.364403
+['FV_brightness.csv', 'FV_eng.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.475122
+Standard deviation: 0.081677
+Elapsed time to calculate: 0:00:03.466795
+['FV_brightness.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.494889
+Standard deviation: 0.064214
+Elapsed time to calculate: 0:00:03.334183
+['FV_brightness.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.396196
+Standard deviation: 0.071449
+Elapsed time to calculate: 0:00:03.341734
+['FV_brightness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.382603
+Standard deviation: 0.077940
+Elapsed time to calculate: 0:00:02.483885
+['FV_brightness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.538859
+Standard deviation: 0.074180
+Elapsed time to calculate: 0:00:09.549948
+['FV_zerocross.csv', 'FV_eng.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.491295
+Standard deviation: 0.072864
+Elapsed time to calculate: 0:00:03.284703
+['FV_zerocross.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.524954
+Standard deviation: 0.058410
+Elapsed time to calculate: 0:00:03.346886
+['FV_zerocross.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.457670
+Standard deviation: 0.050260
+Elapsed time to calculate: 0:00:03.306321
+['FV_zerocross.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.396277
+Standard deviation: 0.040875
+Elapsed time to calculate: 0:00:02.471747
+['FV_zerocross.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557578
+Standard deviation: 0.077670
+Elapsed time to calculate: 0:00:09.711240
+['FV_eng.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.515016
+Standard deviation: 0.026256
+Elapsed time to calculate: 0:00:03.392632
+['FV_eng.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.430058
+Standard deviation: 0.077668
+Elapsed time to calculate: 0:00:03.327675
+['FV_eng.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.405010
+Standard deviation: 0.079304
+Elapsed time to calculate: 0:00:02.408977
+['FV_eng.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.581406
+Standard deviation: 0.070782
+Elapsed time to calculate: 0:00:09.282825
+['FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.498844
+Standard deviation: 0.051580
+Elapsed time to calculate: 0:00:03.234823
+['FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.447530
+Standard deviation: 0.061626
+Elapsed time to calculate: 0:00:02.462610
+['FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.555094
+Standard deviation: 0.069045
+Elapsed time to calculate: 0:00:09.503928
+['FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.376322
+Standard deviation: 0.071892
+Elapsed time to calculate: 0:00:02.335022
+['FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.540126
+Standard deviation: 0.067300
+Elapsed time to calculate: 0:00:09.292556
+['FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.521313
+Standard deviation: 0.064944
+Elapsed time to calculate: 0:00:09.110720
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.487513
+Standard deviation: 0.057307
+Elapsed time to calculate: 0:00:06.537390
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.520013
+Standard deviation: 0.062325
+Elapsed time to calculate: 0:00:06.452577
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.512546
+Standard deviation: 0.055941
+Elapsed time to calculate: 0:00:06.486555
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.478794
+Standard deviation: 0.067729
+Elapsed time to calculate: 0:00:06.474294
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.459966
+Standard deviation: 0.043612
+Elapsed time to calculate: 0:00:06.101498
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.545173
+Standard deviation: 0.088126
+Elapsed time to calculate: 0:00:10.777818
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.537562
+Standard deviation: 0.052605
+Elapsed time to calculate: 0:00:06.425267
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.540017
+Standard deviation: 0.068491
+Elapsed time to calculate: 0:00:06.408780
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.517467
+Standard deviation: 0.073563
+Elapsed time to calculate: 0:00:06.366935
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.485154
+Standard deviation: 0.057104
+Elapsed time to calculate: 0:00:06.151286
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.577688
+Standard deviation: 0.075640
+Elapsed time to calculate: 0:00:10.728391
+['FV_chroma.csv', 'FV_eng.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.513765
+Standard deviation: 0.050517
+Elapsed time to calculate: 0:00:06.401528
+['FV_chroma.csv', 'FV_eng.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.508748
+Standard deviation: 0.057775
+Elapsed time to calculate: 0:00:06.419968
+['FV_chroma.csv', 'FV_eng.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.475013
+Standard deviation: 0.046469
+Elapsed time to calculate: 0:00:06.157251
+['FV_chroma.csv', 'FV_eng.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.592658
+Standard deviation: 0.067061
+Elapsed time to calculate: 0:00:10.794670
+['FV_chroma.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.492420
+Standard deviation: 0.054750
+Elapsed time to calculate: 0:00:06.382514
+['FV_chroma.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.473656
+Standard deviation: 0.054234
+Elapsed time to calculate: 0:00:06.369148
+['FV_chroma.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.563830
+Standard deviation: 0.056149
+Elapsed time to calculate: 0:00:10.788681
+['FV_chroma.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.457448
+Standard deviation: 0.078517
+Elapsed time to calculate: 0:00:06.132889
+['FV_chroma.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.568844
+Standard deviation: 0.079188
+Elapsed time to calculate: 0:00:10.799469
+['FV_chroma.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.553891
+Standard deviation: 0.073277
+Elapsed time to calculate: 0:00:10.599721
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.483795
+Standard deviation: 0.083302
+Elapsed time to calculate: 0:00:03.608806
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.527374
+Standard deviation: 0.073799
+Elapsed time to calculate: 0:00:03.561564
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.450059
+Standard deviation: 0.071158
+Elapsed time to calculate: 0:00:03.523130
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.422558
+Standard deviation: 0.058296
+Elapsed time to calculate: 0:00:02.951596
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.571391
+Standard deviation: 0.084800
+Elapsed time to calculate: 0:00:09.265982
+['FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.551202
+Standard deviation: 0.074391
+Elapsed time to calculate: 0:00:03.577864
+['FV_brightness.csv', 'FV_eng.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.464980
+Standard deviation: 0.072314
+Elapsed time to calculate: 0:00:03.535385
+['FV_brightness.csv', 'FV_eng.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.476278
+Standard deviation: 0.081366
+Elapsed time to calculate: 0:00:02.953498
+['FV_brightness.csv', 'FV_eng.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.588766
+Standard deviation: 0.086352
+Elapsed time to calculate: 0:00:09.278087
+['FV_brightness.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.513670
+Standard deviation: 0.092794
+Elapsed time to calculate: 0:00:03.590195
+['FV_brightness.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.496186
+Standard deviation: 0.074192
+Elapsed time to calculate: 0:00:02.919444
+['FV_brightness.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.590033
+Standard deviation: 0.067914
+Elapsed time to calculate: 0:00:09.277475
+['FV_brightness.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.408807
+Standard deviation: 0.064195
+Elapsed time to calculate: 0:00:02.853795
+['FV_brightness.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557484
+Standard deviation: 0.069267
+Elapsed time to calculate: 0:00:09.234845
+['FV_brightness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.527562
+Standard deviation: 0.055957
+Elapsed time to calculate: 0:00:09.211464
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.561094
+Standard deviation: 0.072338
+Elapsed time to calculate: 0:00:03.582173
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.503811
+Standard deviation: 0.068772
+Elapsed time to calculate: 0:00:03.575932
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.486357
+Standard deviation: 0.093168
+Elapsed time to calculate: 0:00:02.937197
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.600095
+Standard deviation: 0.077797
+Elapsed time to calculate: 0:00:09.209316
+['FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.559954
+Standard deviation: 0.086450
+Elapsed time to calculate: 0:00:03.526608
+['FV_zerocross.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.523703
+Standard deviation: 0.065377
+Elapsed time to calculate: 0:00:02.977629
+['FV_zerocross.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.605095
+Standard deviation: 0.068658
+Elapsed time to calculate: 0:00:09.270500
+['FV_zerocross.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.457575
+Standard deviation: 0.061919
+Elapsed time to calculate: 0:00:02.892026
+['FV_zerocross.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.576437
+Standard deviation: 0.080652
+Elapsed time to calculate: 0:00:09.277418
+['FV_zerocross.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.560235
+Standard deviation: 0.093361
+Elapsed time to calculate: 0:00:09.095330
+['FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.511250
+Standard deviation: 0.053677
+Elapsed time to calculate: 0:00:03.541090
+['FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.506203
+Standard deviation: 0.038128
+Elapsed time to calculate: 0:00:03.002326
+['FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.616408
+Standard deviation: 0.078016
+Elapsed time to calculate: 0:00:09.227856
+['FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.426292
+Standard deviation: 0.067083
+Elapsed time to calculate: 0:00:02.856847
+['FV_eng.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.585049
+Standard deviation: 0.054248
+Elapsed time to calculate: 0:00:09.247507
+['FV_eng.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.577594
+Standard deviation: 0.088240
+Elapsed time to calculate: 0:00:09.126903
+['FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.481266
+Standard deviation: 0.054920
+Elapsed time to calculate: 0:00:02.908267
+['FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.581298
+Standard deviation: 0.068558
+Elapsed time to calculate: 0:00:09.253434
+['FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.550016
+Standard deviation: 0.067372
+Elapsed time to calculate: 0:00:09.072439
+['FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.550172
+Standard deviation: 0.072884
+Elapsed time to calculate: 0:00:09.030767
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.551235
+Standard deviation: 0.058557
+Elapsed time to calculate: 0:00:06.672556
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.533766
+Standard deviation: 0.057640
+Elapsed time to calculate: 0:00:06.541321
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.529983
+Standard deviation: 0.082460
+Elapsed time to calculate: 0:00:06.585366
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.503748
+Standard deviation: 0.064181
+Elapsed time to calculate: 0:00:06.264022
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557609
+Standard deviation: 0.091665
+Elapsed time to calculate: 0:00:10.728160
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.549984
+Standard deviation: 0.059779
+Elapsed time to calculate: 0:00:06.549911
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.524982
+Standard deviation: 0.070802
+Elapsed time to calculate: 0:00:06.586177
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.526296
+Standard deviation: 0.051661
+Elapsed time to calculate: 0:00:06.275185
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.586360
+Standard deviation: 0.077111
+Elapsed time to calculate: 0:00:10.695427
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.523733
+Standard deviation: 0.076818
+Elapsed time to calculate: 0:00:06.592183
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.521187
+Standard deviation: 0.069606
+Elapsed time to calculate: 0:00:06.269987
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.580063
+Standard deviation: 0.056425
+Elapsed time to calculate: 0:00:10.782649
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.486232
+Standard deviation: 0.071557
+Elapsed time to calculate: 0:00:06.251260
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.581266
+Standard deviation: 0.082810
+Elapsed time to calculate: 0:00:10.786920
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.552579
+Standard deviation: 0.075657
+Elapsed time to calculate: 0:00:10.550456
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.571252
+Standard deviation: 0.058843
+Elapsed time to calculate: 0:00:06.617784
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.554954
+Standard deviation: 0.068131
+Elapsed time to calculate: 0:00:06.561416
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.556344
+Standard deviation: 0.046734
+Elapsed time to calculate: 0:00:06.318417
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.613955
+Standard deviation: 0.097606
+Elapsed time to calculate: 0:00:10.753918
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.553719
+Standard deviation: 0.076818
+Elapsed time to calculate: 0:00:06.523417
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.551283
+Standard deviation: 0.071431
+Elapsed time to calculate: 0:00:06.295507
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.622627
+Standard deviation: 0.067933
+Elapsed time to calculate: 0:00:10.715717
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.510047
+Standard deviation: 0.059953
+Elapsed time to calculate: 0:00:06.245113
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.575158
+Standard deviation: 0.067288
+Elapsed time to calculate: 0:00:10.724462
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557625
+Standard deviation: 0.080350
+Elapsed time to calculate: 0:00:10.568934
+['FV_chroma.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.533766
+Standard deviation: 0.051026
+Elapsed time to calculate: 0:00:06.603067
+['FV_chroma.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.546282
+Standard deviation: 0.044645
+Elapsed time to calculate: 0:00:06.301651
+['FV_chroma.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.596330
+Standard deviation: 0.056304
+Elapsed time to calculate: 0:00:10.754643
+['FV_chroma.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.491216
+Standard deviation: 0.062281
+Elapsed time to calculate: 0:00:06.277870
+['FV_chroma.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.572610
+Standard deviation: 0.063177
+Elapsed time to calculate: 0:00:10.781403
+['FV_chroma.csv', 'FV_eng.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.587642
+Standard deviation: 0.070792
+Elapsed time to calculate: 0:00:10.583045
+['FV_chroma.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.517484
+Standard deviation: 0.062617
+Elapsed time to calculate: 0:00:06.269011
+['FV_chroma.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.561360
+Standard deviation: 0.055748
+Elapsed time to calculate: 0:00:10.747562
+['FV_chroma.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557517
+Standard deviation: 0.044192
+Elapsed time to calculate: 0:00:10.537984
+['FV_chroma.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.552594
+Standard deviation: 0.049517
+Elapsed time to calculate: 0:00:10.596249
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557358
+Standard deviation: 0.086179
+Elapsed time to calculate: 0:00:03.946264
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.506295
+Standard deviation: 0.067359
+Elapsed time to calculate: 0:00:03.902982
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.482576
+Standard deviation: 0.080585
+Elapsed time to calculate: 0:00:03.364322
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.601360
+Standard deviation: 0.076105
+Elapsed time to calculate: 0:00:09.438484
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.556250
+Standard deviation: 0.075208
+Elapsed time to calculate: 0:00:03.873182
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.524937
+Standard deviation: 0.059135
+Elapsed time to calculate: 0:00:03.375358
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.615127
+Standard deviation: 0.064888
+Elapsed time to calculate: 0:00:09.384524
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.451278
+Standard deviation: 0.056980
+Elapsed time to calculate: 0:00:03.323834
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.582484
+Standard deviation: 0.083021
+Elapsed time to calculate: 0:00:09.469069
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.547624
+Standard deviation: 0.090430
+Elapsed time to calculate: 0:00:09.251541
+['FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.552452
+Standard deviation: 0.069003
+Elapsed time to calculate: 0:00:03.916378
+['FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.548654
+Standard deviation: 0.081238
+Elapsed time to calculate: 0:00:03.496709
+['FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.621253
+Standard deviation: 0.064421
+Elapsed time to calculate: 0:00:09.425179
+['FV_brightness.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.482590
+Standard deviation: 0.087288
+Elapsed time to calculate: 0:00:03.269235
+['FV_brightness.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.593876
+Standard deviation: 0.075157
+Elapsed time to calculate: 0:24:14.754811
+['FV_brightness.csv', 'FV_eng.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.603829
+Standard deviation: 0.065707
+Elapsed time to calculate: 0:00:09.435750
+['FV_brightness.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.509982
+Standard deviation: 0.089477
+Elapsed time to calculate: 0:00:03.394333
+['FV_brightness.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.601314
+Standard deviation: 0.064770
+Elapsed time to calculate: 0:00:09.545605
+['FV_brightness.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.587454
+Standard deviation: 0.063581
+Elapsed time to calculate: 0:00:09.420543
+['FV_brightness.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.562500
+Standard deviation: 0.077409
+Elapsed time to calculate: 0:00:09.247150
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.558782
+Standard deviation: 0.075789
+Elapsed time to calculate: 0:00:03.935565
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.571189
+Standard deviation: 0.054954
+Elapsed time to calculate: 0:00:03.377308
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.632642
+Standard deviation: 0.087885
+Elapsed time to calculate: 0:00:09.423185
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.520062
+Standard deviation: 0.075130
+Elapsed time to calculate: 0:00:03.354193
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.595126
+Standard deviation: 0.095147
+Elapsed time to calculate: 0:00:09.490459
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.591391
+Standard deviation: 0.079547
+Elapsed time to calculate: 0:00:09.239210
+['FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.552407
+Standard deviation: 0.072993
+Elapsed time to calculate: 0:00:03.394535
+['FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.607581
+Standard deviation: 0.062198
+Elapsed time to calculate: 0:00:09.395780
+['FV_zerocross.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.613736
+Standard deviation: 0.060386
+Elapsed time to calculate: 0:00:09.195173
+['FV_zerocross.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.590095
+Standard deviation: 0.074872
+Elapsed time to calculate: 0:00:09.204115
+['FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.515063
+Standard deviation: 0.051126
+Elapsed time to calculate: 0:00:03.327554
+['FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.605065
+Standard deviation: 0.068759
+Elapsed time to calculate: 0:00:09.415297
+['FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.610065
+Standard deviation: 0.071733
+Elapsed time to calculate: 0:00:09.196093
+['FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.595094
+Standard deviation: 0.085441
+Elapsed time to calculate: 0:00:09.236675
+['FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.568830
+Standard deviation: 0.058840
+Elapsed time to calculate: 0:00:09.187356
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.578688
+Standard deviation: 0.070924
+Elapsed time to calculate: 0:00:06.744553
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.536202
+Standard deviation: 0.070923
+Elapsed time to calculate: 0:00:06.752529
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.542578
+Standard deviation: 0.060497
+Elapsed time to calculate: 0:00:06.460981
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.600158
+Standard deviation: 0.063771
+Elapsed time to calculate: 0:00:10.881909
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.566205
+Standard deviation: 0.057044
+Elapsed time to calculate: 0:00:06.715284
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.538735
+Standard deviation: 0.057748
+Elapsed time to calculate: 0:00:06.478016
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.595220
+Standard deviation: 0.084938
+Elapsed time to calculate: 0:00:10.918182
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.517514
+Standard deviation: 0.051040
+Elapsed time to calculate: 0:00:06.414131
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.577562
+Standard deviation: 0.084075
+Elapsed time to calculate: 0:00:10.877122
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.567563
+Standard deviation: 0.063179
+Elapsed time to calculate: 0:00:10.719486
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.543688
+Standard deviation: 0.064982
+Elapsed time to calculate: 0:00:06.796264
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.549967
+Standard deviation: 0.069155
+Elapsed time to calculate: 0:00:06.527679
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.612549
+Standard deviation: 0.060022
+Elapsed time to calculate: 0:00:10.975669
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.516232
+Standard deviation: 0.070368
+Elapsed time to calculate: 0:00:06.468907
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.605142
+Standard deviation: 0.074830
+Elapsed time to calculate: 0:00:10.914604
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.590126
+Standard deviation: 0.086301
+Elapsed time to calculate: 0:00:10.816339
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.526155
+Standard deviation: 0.074528
+Elapsed time to calculate: 0:00:06.421829
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.583783
+Standard deviation: 0.043948
+Elapsed time to calculate: 0:00:10.922229
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.585048
+Standard deviation: 0.055041
+Elapsed time to calculate: 0:00:10.737350
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.550062
+Standard deviation: 0.080507
+Elapsed time to calculate: 0:00:10.751028
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.565032
+Standard deviation: 0.057688
+Elapsed time to calculate: 0:00:06.717916
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.586298
+Standard deviation: 0.065846
+Elapsed time to calculate: 0:00:06.480957
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.633878
+Standard deviation: 0.085921
+Elapsed time to calculate: 0:00:10.902321
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557531
+Standard deviation: 0.074762
+Elapsed time to calculate: 0:00:06.449023
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.608862
+Standard deviation: 0.090069
+Elapsed time to calculate: 0:00:10.890399
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.592641
+Standard deviation: 0.079858
+Elapsed time to calculate: 0:00:10.710910
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557439
+Standard deviation: 0.071988
+Elapsed time to calculate: 0:00:06.465220
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.601361
+Standard deviation: 0.076382
+Elapsed time to calculate: 0:00:10.830078
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.611393
+Standard deviation: 0.064483
+Elapsed time to calculate: 0:00:10.728917
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.588954
+Standard deviation: 0.080017
+Elapsed time to calculate: 0:00:10.665858
+['FV_chroma.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.527531
+Standard deviation: 0.045918
+Elapsed time to calculate: 0:00:06.496448
+['FV_chroma.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.606346
+Standard deviation: 0.065679
+Elapsed time to calculate: 0:00:10.788578
+['FV_chroma.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.615144
+Standard deviation: 0.056475
+Elapsed time to calculate: 0:00:10.716853
+['FV_chroma.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.583939
+Standard deviation: 0.074132
+Elapsed time to calculate: 0:00:10.719092
+['FV_chroma.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.573861
+Standard deviation: 0.053878
+Elapsed time to calculate: 0:00:10.746252
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.546234
+Standard deviation: 0.076521
+Elapsed time to calculate: 0:00:04.290189
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.578641
+Standard deviation: 0.066967
+Elapsed time to calculate: 0:00:03.747859
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.625048
+Standard deviation: 0.071626
+Elapsed time to calculate: 0:00:09.532507
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.498842
+Standard deviation: 0.069943
+Elapsed time to calculate: 0:00:03.743132
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.583923
+Standard deviation: 0.094363
+Elapsed time to calculate: 0:00:09.607424
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.602642
+Standard deviation: 0.088747
+Elapsed time to calculate: 0:00:09.449148
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.549954
+Standard deviation: 0.069220
+Elapsed time to calculate: 0:00:03.741623
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.598830
+Standard deviation: 0.059871
+Elapsed time to calculate: 0:00:09.575858
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.620127
+Standard deviation: 0.079862
+Elapsed time to calculate: 0:00:09.363014
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.578844
+Standard deviation: 0.098806
+Elapsed time to calculate: 0:00:09.379478
+['FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.543687
+Standard deviation: 0.073597
+Elapsed time to calculate: 0:00:03.701485
+['FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.616284
+Standard deviation: 0.066355
+Elapsed time to calculate: 0:00:09.526259
+['FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.610032
+Standard deviation: 0.079736
+Elapsed time to calculate: 0:00:09.414808
+['FV_brightness.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.590142
+Standard deviation: 0.065412
+Elapsed time to calculate: 0:00:09.390767
+['FV_brightness.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.594955
+Standard deviation: 0.063070
+Elapsed time to calculate: 0:00:09.391408
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.557517
+Standard deviation: 0.074266
+Elapsed time to calculate: 0:00:03.698251
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.638863
+Standard deviation: 0.062828
+Elapsed time to calculate: 0:00:09.635350
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.620064
+Standard deviation: 0.069579
+Elapsed time to calculate: 0:00:09.399746
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.615095
+Standard deviation: 0.092767
+Elapsed time to calculate: 0:00:09.469872
+['FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.613845
+Standard deviation: 0.058907
+Elapsed time to calculate: 0:00:09.350309
+['FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.596361
+Standard deviation: 0.055433
+Elapsed time to calculate: 0:00:09.446735
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.583688
+Standard deviation: 0.068690
+Elapsed time to calculate: 0:00:06.887691
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.576361
+Standard deviation: 0.066543
+Elapsed time to calculate: 1:00:02.449626
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.633924
+Standard deviation: 0.073419
+Elapsed time to calculate: 0:00:19.957056
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.545156
+Standard deviation: 0.070741
+Elapsed time to calculate: 2:00:25.013028
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.598861
+Standard deviation: 0.074940
+Elapsed time to calculate: 0:00:17.547628
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.592704
+Standard deviation: 0.082772
+Elapsed time to calculate: 0:00:41.541867
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.536171
+Standard deviation: 0.073371
+Elapsed time to calculate: 0:00:29.488717
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.607596
+Standard deviation: 0.076645
+Elapsed time to calculate: 2:00:34.773290
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.606314
+Standard deviation: 0.063498
+Elapsed time to calculate: 0:00:27.289514
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.598860
+Standard deviation: 0.073816
+Elapsed time to calculate: 2:00:22.270261
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.539969
+Standard deviation: 0.056363
+Elapsed time to calculate: 0:00:15.838264
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.607595
+Standard deviation: 0.066809
+Elapsed time to calculate: 0:12:21.551592
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.621423
+Standard deviation: 0.080142
+Elapsed time to calculate: 0:00:11.207290
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.583796
+Standard deviation: 0.086766
+Elapsed time to calculate: 0:00:10.808539
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.586314
+Standard deviation: 0.071415
+Elapsed time to calculate: 0:00:10.865277
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.569861
+Standard deviation: 0.063347
+Elapsed time to calculate: 0:00:06.938180
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.613846
+Standard deviation: 0.066929
+Elapsed time to calculate: 0:00:11.551904
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.616331
+Standard deviation: 0.075746
+Elapsed time to calculate: 0:00:11.478304
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.590141
+Standard deviation: 0.079588
+Elapsed time to calculate: 0:00:11.475481
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.610096
+Standard deviation: 0.076418
+Elapsed time to calculate: 0:00:11.485672
+['FV_chroma.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.611361
+Standard deviation: 0.070183
+Elapsed time to calculate: 0:00:11.263906
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.564970
+Standard deviation: 0.065325
+Elapsed time to calculate: 0:00:04.238053
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.628861
+Standard deviation: 0.073798
+Elapsed time to calculate: 0:00:10.106204
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.631378
+Standard deviation: 0.074469
+Elapsed time to calculate: 0:00:09.917737
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.597563
+Standard deviation: 0.085204
+Elapsed time to calculate: 0:00:10.008016
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.613720
+Standard deviation: 0.075467
+Elapsed time to calculate: 0:00:09.869641
+['FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.608705
+Standard deviation: 0.070323
+Elapsed time to calculate: 0:00:10.151721
+['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.625065
+Standard deviation: 0.067985
+Elapsed time to calculate: 0:00:09.754703
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.577423
+Standard deviation: 0.067792
+Elapsed time to calculate: 0:00:07.306875
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.627643
+Standard deviation: 0.050463
+Elapsed time to calculate: 0:00:11.728780
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.627564
+Standard deviation: 0.081679
+Elapsed time to calculate: 0:00:11.617469
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.592641
+Standard deviation: 0.083263
+Elapsed time to calculate: 0:00:11.104976
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.616424
+Standard deviation: 0.074725
+Elapsed time to calculate: 0:00:11.392660
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.610095
+Standard deviation: 0.085012
+Elapsed time to calculate: 0:00:11.219705
+['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.636300
+Standard deviation: 0.070449
+Elapsed time to calculate: 0:00:11.331351
+['FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.637596
+Standard deviation: 0.075952
+Elapsed time to calculate: 0:00:09.720502
+['FV_chroma.csv', 'FV_brightness.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_t.csv', 'FV_MFCC.csv']
+-- Random Forest Cross Validation Score --
+Mean score: 0.622596
+Standard deviation: 0.079939
+Elapsed time to calculate: 0:00:11.042889
+max score is 0.638862908267
+max set is ['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_roughness.csv', 'FV_MFCC.csv']
