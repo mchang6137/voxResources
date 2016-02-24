@@ -543,3 +543,109 @@ Mean accuracy: 0.780000
  [ 1  0  3  2  0  0  0  0  1 13]]
 --
 
+------ ['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv'] --------
+
+-- Random Forest Grid Search Parameters --
+[mean: 0.48750, std: 0.06483, params: {'n_estimators': 10, 'max_depth': 4}, mean
+: 0.52375, std: 0.08352, params: {'n_estimators': 25, 'max_depth': 4}, mean: 0.5
+6000, std: 0.06393, params: {'n_estimators': 50, 'max_depth': 4}, mean: 0.56625,
+ std: 0.05514, params: {'n_estimators': 75, 'max_depth': 4}, mean: 0.60125, std:
+ 0.06817, params: {'n_estimators': 100, 'max_depth': 4}, mean: 0.57250, std: 0.0
+4883, params: {'n_estimators': 125, 'max_depth': 4}, mean: 0.58750, std: 0.04146
+, params: {'n_estimators': 150, 'max_depth': 4}, mean: 0.58500, std: 0.06621, pa
+rams: {'n_estimators': 175, 'max_depth': 4}, mean: 0.49750, std: 0.05963, params
+: {'n_estimators': 10, 'max_depth': 5}, mean: 0.55000, std: 0.05548, params: {'n
+_estimators': 25, 'max_depth': 5}, mean: 0.58250, std: 0.08114, params: {'n_esti
+mators': 50, 'max_depth': 5}, mean: 0.60750, std: 0.05895, params: {'n_estimator
+s': 75, 'max_depth': 5}, mean: 0.61375, std: 0.06065, params: {'n_estimators': 1
+00, 'max_depth': 5}, mean: 0.61250, std: 0.06731, params: {'n_estimators': 125,
+'max_depth': 5}, mean: 0.60000, std: 0.06212, params: {'n_estimators': 150, 'max
+_depth': 5}, mean: 0.61625, std: 0.05341, params: {'n_estimators': 175, 'max_dep
+th': 5}, mean: 0.53250, std: 0.03363, params: {'n_estimators': 10, 'max_depth':
+6}, mean: 0.57000, std: 0.08124, params: {'n_estimators': 25, 'max_depth': 6}, m
+ean: 0.61875, std: 0.05890, params: {'n_estimators': 50, 'max_depth': 6}, mean:
+0.60875, std: 0.06490, params: {'n_estimators': 75, 'max_depth': 6}, mean: 0.606
+25, std: 0.05903, params: {'n_estimators': 100, 'max_depth': 6}, mean: 0.61250,
+std: 0.06555, params: {'n_estimators': 125, 'max_depth': 6}, mean: 0.62125, std:
+ 0.06119, params: {'n_estimators': 150, 'max_depth': 6}, mean: 0.60875, std: 0.0
+7176, params: {'n_estimators': 175, 'max_depth': 6}, mean: 0.54000, std: 0.08000
+, params: {'n_estimators': 10, 'max_depth': 7}, mean: 0.59375, std: 0.06200, par
+ams: {'n_estimators': 25, 'max_depth': 7}, mean: 0.60500, std: 0.06103, params:
+{'n_estimators': 50, 'max_depth': 7}, mean: 0.63625, std: 0.06874, params: {'n_e
+stimators': 75, 'max_depth': 7}, mean: 0.63250, std: 0.06329, params: {'n_estima
+tors': 100, 'max_depth': 7}, mean: 0.61500, std: 0.08174, params: {'n_estimators
+': 125, 'max_depth': 7}, mean: 0.63500, std: 0.07610, params: {'n_estimators': 1
+50, 'max_depth': 7}, mean: 0.63625, std: 0.08076, params: {'n_estimators': 175,
+'max_depth': 7}, mean: 0.53125, std: 0.04127, params: {'n_estimators': 10, 'max_
+depth': 8}, mean: 0.58500, std: 0.06526, params: {'n_estimators': 25, 'max_depth
+': 8}, mean: 0.61500, std: 0.07391, params: {'n_estimators': 50, 'max_depth': 8}
+, mean: 0.61750, std: 0.06560, params: {'n_estimators': 75, 'max_depth': 8}, mea
+n: 0.63000, std: 0.07939, params: {'n_estimators': 100, 'max_depth': 8}, mean: 0
+.64125, std: 0.08325, params: {'n_estimators': 125, 'max_depth': 8}, mean: 0.642
+50, std: 0.07462, params: {'n_estimators': 150, 'max_depth': 8}, mean: 0.63375,
+std: 0.08297, params: {'n_estimators': 175, 'max_depth': 8}, mean: 0.51875, std:
+ 0.06471, params: {'n_estimators': 10, 'max_depth': 9}, mean: 0.58875, std: 0.05
+353, params: {'n_estimators': 25, 'max_depth': 9}, mean: 0.60125, std: 0.05828,
+params: {'n_estimators': 50, 'max_depth': 9}, mean: 0.62000, std: 0.07325, param
+s: {'n_estimators': 75, 'max_depth': 9}, mean: 0.63000, std: 0.06536, params: {'
+n_estimators': 100, 'max_depth': 9}, mean: 0.64625, std: 0.06093, params: {'n_es
+timators': 125, 'max_depth': 9}, mean: 0.64375, std: 0.06661, params: {'n_estima
+tors': 150, 'max_depth': 9}, mean: 0.63250, std: 0.06403, params: {'n_estimators
+': 175, 'max_depth': 9}, mean: 0.50750, std: 0.06000, params: {'n_estimators': 1
+0, 'max_depth': 10}, mean: 0.58250, std: 0.05145, params: {'n_estimators': 25, '
+max_depth': 10}, mean: 0.60125, std: 0.05411, params: {'n_estimators': 50, 'max_
+depth': 10}, mean: 0.63875, std: 0.07494, params: {'n_estimators': 75, 'max_dept
+h': 10}, mean: 0.65125, std: 0.07031, params: {'n_estimators': 100, 'max_depth':
+ 10}, mean: 0.65875, std: 0.07401, params: {'n_estimators': 125, 'max_depth': 10
+}, mean: 0.64500, std: 0.07420, params: {'n_estimators': 150, 'max_depth': 10},
+mean: 0.64000, std: 0.06598, params: {'n_estimators': 175, 'max_depth': 10}]
+n_estimators: 125
+max_depth: 10
+--
+
+-- Random Forest Results --
+Mean accuracy: 0.720000
+[[14  0  0  2  0  2  1  0  1  0]
+ [ 0 19  1  0  0  0  0  0  0  0]
+ [ 1  0 14  0  0  0  0  0  0  5]
+ [ 1  0  0 12  2  1  1  3  0  0]
+ [ 0  0  0  0 15  0  1  1  3  0]
+ [ 1  3  0  0  0 16  0  0  0  0]
+ [ 0  0  0  2  0  0 14  0  0  4]
+ [ 0  0  1  0  0  0  0 17  1  1]
+ [ 1  0  1  1  2  0  0  0 14  1]
+ [ 1  1  5  1  1  0  2  0  0  9]]
+--
+
+-- SVM Grid Search Parameters --
+[mean: 0.60500, std: 0.08798, params: {'kernel': 'linear', 'C': 0.125}, mean: 0.
+55250, std: 0.08862, params: {'kernel': 'rbf', 'C': 0.125}, mean: 0.61250, std:
+0.08225, params: {'kernel': 'linear', 'C': 0.25}, mean: 0.55250, std: 0.08862, p
+arams: {'kernel': 'rbf', 'C': 0.25}, mean: 0.61500, std: 0.08325, params: {'kern
+el': 'linear', 'C': 0.5}, mean: 0.55250, std: 0.08862, params: {'kernel': 'rbf',
+ 'C': 0.5}, mean: 0.62000, std: 0.08085, params: {'kernel': 'linear', 'C': 0.75}
+, mean: 0.55250, std: 0.08862, params: {'kernel': 'rbf', 'C': 0.75}, mean: 0.616
+25, std: 0.08078, params: {'kernel': 'linear', 'C': 1}, mean: 0.55250, std: 0.08
+862, params: {'kernel': 'rbf', 'C': 1}, mean: 0.62250, std: 0.09054, params: {'k
+ernel': 'linear', 'C': 1.25}, mean: 0.55250, std: 0.08862, params: {'kernel': 'r
+bf', 'C': 1.25}, mean: 0.62125, std: 0.08950, params: {'kernel': 'linear', 'C':
+1.5}, mean: 0.55250, std: 0.08862, params: {'kernel': 'rbf', 'C': 1.5}, mean: 0.
+62375, std: 0.08700, params: {'kernel': 'linear', 'C': 1.75}, mean: 0.55250, std
+: 0.08862, params: {'kernel': 'rbf', 'C': 1.75}]
+kernel: linear
+C: 1.75
+--
+
+-- SVM Results --
+Mean accuracy: 0.765000
+[[15  0  1  1  0  1  0  1  0  1]
+ [ 0 20  0  0  0  0  0  0  0  0]
+ [ 1  0 15  1  0  2  0  0  0  1]
+ [ 3  0  0 13  1  1  0  1  1  0]
+ [ 1  0  1  1 15  0  1  0  1  0]
+ [ 1  1  0  0  0 18  0  0  0  0]
+ [ 2  0  1  0  0  0 14  0  0  3]
+ [ 0  0  1  0  0  0  0 17  1  1]
+ [ 1  0  0  3  3  0  0  0 13  0]
+ [ 1  1  3  1  1  0  0  0  0 13]]
+--

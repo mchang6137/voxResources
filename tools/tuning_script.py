@@ -38,7 +38,7 @@ def evaluateLearner(name, learner, data, labels):
     print cm
     print "--\n"
 
-feature_list = ['FV_chroma.csv', 'FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
+feature_list = ['FV_zerocross.csv', 'FV_eng.csv', 'FV_hcdf.csv', 'FV_MFCC.csv']
 fisher_directory = './../fisher_vectors/'
 feature_data = []
 validation_data = []
